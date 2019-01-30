@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: comentarios
+#
+#  id         :integer          not null, primary key
+#  tweet_id   :integer
+#  comentario :text
+#  usuario_id :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tweet: one
+  comentario: MyText
+  usuario: one
+
+two:
+  tweet: two
+  comentario: MyText
+  usuario: two
